@@ -11,11 +11,13 @@ function App() {
         only one route to dashboard  
         */}
 
-        <BrowserRouter>
+        {/* <BrowserRouter>
           <Routes>
             <Route path="/" element={<Dashboard />}></Route>
           </Routes>
-        </BrowserRouter>
+        </BrowserRouter> */}
+
+        <Dashboard />
       </div>
     </>
   );
